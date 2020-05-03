@@ -14,7 +14,27 @@
 	// 		"$2"
 	// 	],
 	// 	"description": "Log output to console"
-	// }
+  // }
+  "vtexio-responsive-layout.desktop":{
+    "prefix": "vtexio-responsive-layout-desktop",
+    "description": "Layut Responsivo para Desktop",
+    "body": "\"responsive-layout.desktop\":{}"
+  },
+  "vtexio-responsive-layout.mobile":{
+    "prefix": "vtexio-responsive-layout-mobile",
+    "description": "Layut Responsivo para Mobile",
+    "body": "\"responsive-layout.mobile\":{}"
+  },
+  "vtexio-responsive-layout.tablet":{
+    "prefix": "vtexio-responsive-layout-tablet",
+    "description": "Layut Responsivo para Tablet",
+    "body": "\"responsive-layout.tablet\":{}"
+  },
+  "vtexio-responsive-layout.phone":{
+    "prefix": "vtexio-responsive-layout-phone",
+    "description": "Layut Responsivo para Phone",
+    "body": "\"responsive-layout.phone\":{}"
+  },
 	"vtexio-header":{
 		"prefix": "vtexio-header",
 		"body": [
