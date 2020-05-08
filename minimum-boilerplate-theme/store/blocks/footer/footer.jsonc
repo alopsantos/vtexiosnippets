@@ -1,0 +1,83 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row"
+    ]
+  },
+  "flex-layout.row#logo": {
+    "children": [
+      "image"
+    ]
+  },
+  "image": {
+    "props": {
+      "width": 100,
+      "src": "https://www.estacaodamodastore.com.br/arquivos/logo.svg"
+    }
+  },
+  "flex-layout.row": {
+    "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#center",
+      "flex-layout.col#right"
+    ],
+    "props": {
+      "blockClass": "footer-creditos"
+    }
+  },
+  "flex-layout.col#center": {
+    "children": [
+      "rich-text#fiscal"
+    ]
+  },
+  "rich-text#fiscal": {
+    "props": {
+      "text": "2020 - ESTACÃO STORE COMERCIO ARTIGOS DO VESTUÁRIO \n RUA DOS ESTUDANTES, 1906, SANTA TEREZINHA DE ITAIPU, PR, CEP 85875000 | CNPJ 72044290000186 IE 99948484848 ",
+      "blockClass": "footer-textos"
+    }
+  },
+  "flex-layout.col#right": {
+    "children": [
+      "rich-text#dev",
+      "powered-by"
+    ],
+    "props":{
+      "blockClass":"footer-creditos-right"
+    }
+  },
+  "rich-text#dev": {
+    "props": {
+      "text": "Created with much love by: Anderson Lopes",
+      "blockClass": "footer-textos"
+    }
+  },
+  "flex-layout.col#left": {
+    "children": [
+      "image",
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": "footer-right"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "mastercard",
+        "visa",
+        "diners club"
+      ]
+    }
+  }
+}
